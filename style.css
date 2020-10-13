@@ -1,3 +1,30 @@
-.products ul {
-    list-style-type: none;
+.products {
+    display: flex;
+}
+
+.products .wrapper_card {
+	width: 150px;
+
+	margin-right: 5px;
+
+	text-align: center;
+	border: 1px solid red;
+}
+
+.products .wrapper_card:last-child {
+	margin-right: 0;
+}
+
+#form_order {
+	margin-top: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+#form_order .input {
+	margin: 10px;
+}
+
+#form_order button {
+	width: 200px;
 }
