@@ -15,21 +15,12 @@
 
 	<h1>Магазин товаров</h1>
 	<section class="products">
-		<?php 
-			while ($row = mysqli_fetch_assoc($result)) {
-				?>
-				<div class="wrapper_card">
-					<h2 class="card-title">
-							<?php echo $row["name"] ?>
-					</h2>
-					<p class="card-text"><?php echo $row["price"] ?></p>
-				</div>
-			<?php
-		}
-		 ?>
+        <?php
+            include 'product_card.php';
+        ?>
 	 </section>
 
-    <form id="form_order" method="POST">
+    <form id="form_order" action="add_order.php" method="POST">
         <label class="input" for="email"> Email:
             <input id="email" name="email" type="email" placeholder="You email">
         </label>
@@ -43,6 +34,6 @@
     </form>
 
 
-<script src="main.js"></script>
+<!--<script src="main.js"></script>-->
 </body>
 </html>

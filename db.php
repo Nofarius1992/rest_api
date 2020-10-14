@@ -1,10 +1,10 @@
-<?php 
+<?php
 	// Имя хоста
 	$servername = "localhost";
 	// Пользователь
 	$username = "root";
 	// Пароль
-	$password = "";
+	$password = "zxcASDqwe123";
 	// Имя базы данных
 	$db_name = "rest_api";
 
