@@ -10,6 +10,7 @@ include $_SERVER['DOCUMENT_ROOT'] . "/db.php";
 
 // Добавляем заказ в базу данных
 if($_POST['email'] !== '' && $_POST['name'] !== '' && $_POST['price'] !== '') {
+    $sql = "SELECT * FROM products";
     $sql = "INSERT INTO orders (email, price, name) VALUES ('" . $_POST['email'] . "', '" . $_POST['price'] . "', '" . $_POST['name'] . "')";
     if($connect->query($sql)) {
         echo "Заказ оформлен";
