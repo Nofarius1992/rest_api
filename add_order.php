@@ -16,7 +16,9 @@ if($_POST['email'] !== '' && $_POST['name'] !== '' && $_POST['price'] !== '') {
         echo "Заказ оформлен";
     } else {
         echo "Error";
-    }
+        echo "<a href="/">Назад</a>";
+    };
 } else {
     echo 'Заполните все поля';
+    echo "<a href="/">Назад</a>";
 }

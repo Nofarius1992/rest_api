@@ -4,7 +4,7 @@
 	// Пользователь
 	$username = "root";
 	// Пароль
-	$password = "zxcASDqwe123";
+	$password = "";
 	// Имя базы данных
 	$db_name = "rest_api";
 
