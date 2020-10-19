@@ -29,7 +29,7 @@
 	            <input id="name" name="name" type="text" placeholder="Name product">
 	        </label>
 	        <label class="input" for="price"> Price: 
-	            <input id="price" name="price" type="text" placeholder="Price USD">
+	            <input id="price" name="price_order" type="text" placeholder="Price USD">
 	        </label>
 	        <button type="submit">to Order</button>
     	</form>

@@ -20,7 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6be24a53-b73b-4780-8cae-2ee746475f68" name="Default Changelist" comment="Drew up a work plan">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add_order.php" beforeDir="false" afterPath="$PROJECT_DIR$/add_order.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="/etc/apache2/sites-available/rest_api.conf" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -68,6 +72,10 @@
       <workItem from="1602667498072" duration="6218000" />
       <workItem from="1602697625862" duration="2669000" />
       <workItem from="1602728389039" duration="288000" />
+      <workItem from="1602957505899" duration="1135000" />
+      <workItem from="1602990771415" duration="1128000" />
+      <workItem from="1603037846160" duration="4782000" />
+      <workItem from="1603077322930" duration="2691000" />
     </task>
     <servers />
   </component>
