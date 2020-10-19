@@ -23,6 +23,8 @@ form_order.onsubmit = function(sobitye) {
 			alert("Ошибка, попробуйте ещё раз");
 		} else if(ajax.response == 1) {
 			alert("Заказ оформлен");
+		} else if (ajax.response == 4) {
+			alert("Такого товара нет в продаже");
 		}
 
 }

@@ -2,7 +2,7 @@
 	// Имя хоста
 	$servername = "localhost";
 	// Пользователь
-	$username = "knop";
+	$username = "root";
 	// Пароль
 	$password = "";
 	// Имя базы данных

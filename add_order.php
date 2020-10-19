@@ -8,15 +8,25 @@
 */
 include $_SERVER['DOCUMENT_ROOT'] . "/db.php";
 
+$sql = "select * from products where name like '" . $_POST['name'] . "'";
+$result = mysqli_query($connect, $sql);
+$check_name = mysqli_num_rows($result);
+
 // Добавляем заказ в базу данных
+
 if($_POST['email'] !== '' && $_POST['name'] !== '' && $_POST['price_order'] !== '') {
-    $sql = "SELECT * FROM products";
-    $sql = "INSERT INTO orders (email, price_order, name) VALUES ('" . $_POST['email'] . "', '" . $_POST['price_order'] . "', '" . $_POST['name'] . "')";
-    if($connect->query($sql)) {
-        echo "1";
+    if($check_name > 0) {
+        $sql = "INSERT INTO orders (email, price_order, name) VALUES ('" . $_POST['email'] . "', '" . $_POST['price_order'] . "', '" . $_POST['name'] . "')";
+        if($connect->query($sql)) {
+            echo "1"; // если Заказ оформлен
+        } else {
+            echo "2"; // Если Ошибка, попробуйте ещё раз
+        };
     } else {
-        echo "2";
-    };
+        echo "4"; // Если Такого товара нет в продаже
+    }
+    
 } else {
-    echo '3';
+    echo '3'; // Если не все поля заполнены
 }
+
